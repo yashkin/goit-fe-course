@@ -6,6 +6,17 @@ padding 0;}
 body {background: #ccf url("img/page-bg1.png") no-repeat center center fixed;
    background-size: cover;}
 
+   h2 {font-family: Pathway Gothic One;
+    font-size:25px;
+    color: #263555;
+}
+
+h4 {
+    color: #263555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size 14px;
+
+}
   
     .wrapper {
         width:480px;
@@ -19,10 +30,6 @@ body {background: #ccf url("img/page-bg1.png") no-repeat center center fixed;
     
    }
 
-  hr {   
-       margin-top:52px;
-       margin-bottom:52px;
-       background-color:#808080; }
       
    div {
     padding-left:38px;
@@ -33,17 +40,6 @@ body {background: #ccf url("img/page-bg1.png") no-repeat center center fixed;
 
 }
 
-h2 {font-family: Pathway Gothic One;
-    font-size:25px;
-    color: #263555;
-}
-
-h4 {
-    color: #263555;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size 14px;
-
-}
 
 
 .line {
@@ -55,26 +51,25 @@ h4 {
     margin-bottom:54px;
 }
 
-   .list {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    text: #263555;
-    columns:2;
-
+   
 
 ul {
-    list-style: none;
+    
     margin-top: 20px;
     margin-bottom: 30px;
 }
 
-
-li {
+.list {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text: #263555;
+    list-style: none;
+    display: inline-block;
     margin: 12px 0px 0px 0px;
     padding-left: 20px;
-    display: inline-block;
-  
+    columns: 2;
 }
   
+
  
   
