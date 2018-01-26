@@ -1,24 +1,28 @@
 *{
   box-sizing: border-box;
-  margin 0;
-padding 0;}
+  margin: 0;
+padding: 0;}
 
-body {background: #ccf url("img/page-bg1.png") no-repeat center center fixed;
+body {background: #ccf url("img/page-bg1.png") no-repeat center center;
    background-size: cover;}
 
    h2 {font-family: Pathway Gothic One;
     font-size:25px;
     color: #263555;
+    padding-bottom:30px;
 }
 
 h4 {
     color: #263555;
     font-family: Arial, Helvetica, sans-serif;
-    font-size 14px;
+    font-size: 14px;
 
 }
 
-.line {
+.kartinka
+{padding-bottom:30px;}
+
+.line { 
     width: 405px;
     height: 1px;
     background-color: darkgray; 
@@ -39,6 +43,9 @@ h4 {
     
    }
 
+p {
+    padding-top: 16px;
+    padding-bottom:27px}
       
    div {
     padding-left:38px;
@@ -47,13 +54,6 @@ h4 {
     padding-bottom: 44px;
    }
 
-}
-
-
-
-
-
-   
 
 ul {
     
@@ -64,14 +64,9 @@ ul {
 .list {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    text: #263555;
     list-style: none;
     display: inline-block;
     margin: 12px 0px 0px 0px;
     padding-left: 20px;
     columns: 2;
 }
-  
-
- 
-  
