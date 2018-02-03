@@ -1,0 +1,163 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+padding: 0;}
+
+
+body {
+  background-image: url("../img/page-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  }
+
+  .wrapper {
+    width:1024px;
+    margin: 0 auto;
+    margin-bottom:64px;
+    margin-top:40px;
+    padding-top:116px;
+    padding-bottom: 88px;
+    background-color:white;
+  }
+    
+    .block1 .block2 {
+  
+      width: 1024px;
+      margin: 0 auto;
+    
+    }
+
+     .article {
+      display: inline-block;
+      margin-left: 60px;
+      width: 640px;
+  
+    }
+
+   .sidebar {
+display: inline-block;
+   width:200px;
+   margin-left:60px;
+   vertical-align: top;
+    }
+
+    .article-img {
+      float:left;
+      margin-right:10px;
+    margin-bottom:10px;
+    }
+
+    h2 {
+      font-size: 26.667px;
+        font-family: "PathwayGothicOne";
+        color: rgb(38, 53, 85);
+      text-transform:uppercase;
+      margin-bottom:20px;
+  }
+  
+      h4 {
+      
+          font-size: 15px;
+          font-family: "Arial";
+          color: rgb(38, 53, 85);
+         
+        }
+        
+
+    
+
+    .list {
+     
+      list-style: none;
+      counter-reset: list;
+        font-size: 12.5px;
+        font-family: "Arial";
+        color: rgb(38, 53, 85);
+  
+      }
+      
+ 
+    
+    .list-item {margin-bottom:20px;
+      counter-increment: list;
+    }
+
+    .list-item:last-child {margin-bottom:0}
+
+  .h4list {display:inline-block;}
+
+    .h4list::before {
+      display:inline-block;
+      content: counter(list);
+      padding: 5px 10px;
+      border-radius: 50%;
+      background-color: #38afe5;
+      color: #fefefe;
+
+    }
+
+    .list2 {
+      list-style: none;
+    columns:2;
+    font-size: 12.5px;
+        font-family: "Arial";
+        color: rgb(38, 53, 85)
+    
+    }
+
+    .list-item2 {
+      margin-bottom:20px;
+    }
+
+    .list-item2:last-child {margin-bottom:0}
+
+    .list-item2::before {
+      display:inline-block;
+      content: '\2192';
+   
+
+    }
+
+    .quote::before {
+      display:inline-block;
+      content: '\201c';}
+
+      .quote::after {
+        display:inline-block;
+        content: '\201d';}
+
+
+        p {
+
+          
+            font-size: 13px;
+            font-family: "Arial";
+            color: rgb(78, 80, 80);
+            padding-top: 10px;
+            padding-bottom:10px;
+          
+
+        }
+
+        .name {
+            font-size: 16px;
+            font-family: "Arial";
+            color: #263555;
+            
+          }
+          
+          .status {
+
+  
+              font-size: 13px;
+              font-family: "Arial";
+              color: rgb(78, 80, 80);
+              
+    
+          }
+        
+       
+        
+          
+         
