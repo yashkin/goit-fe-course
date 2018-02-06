@@ -22,15 +22,7 @@ h4 {
 .kartinka
 {padding-bottom:30px;}
 
-.line { 
-    width: 405px;
-    height: 1px;
-    background-color: darkgray; 
-    padding: 0;
-    margin-top:54px;
-    margin-bottom:54px;
-}
-  
+
     .wrapper {
         width:480px;
         background-color:white;
@@ -69,12 +61,6 @@ ul {
     margin: 12px 0px 0px 0px;
     padding-left: 20px;
     columns: 2;
-<<<<<<< HEAD
-}
-=======
-}
-  
 
+}
  
-   
->>>>>>> 5e2d204b15f0d195a6250645d7044d3c952d2ae2
