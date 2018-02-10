@@ -1,0 +1,274 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+padding: 0;}
+
+
+body {
+  background-image: url("../img/Layer57.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  }
+
+  .menu-wrapper {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom:10px;
+    width:1024px;
+    text-align: center;
+    vertical-align:top;
+
+  }
+
+  .wrapper {
+    margin: auto;
+       margin-bottom: 72px;
+       width:1024px;
+       text-align: center;
+       background-color: white;
+   
+     
+   }
+
+  .logo {
+  
+    font-family: 'Dorsa', sans-serif;
+    color: #263555;
+    background:#ffffff;
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 140px;
+    font-size: 60px;
+    text-transform: uppercase;
+   position:relative;
+   bottom:50px;
+  }
+
+
+  ul li{
+    display: inline-block;
+    margin-right:50px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size:28px;
+    text-transform: uppercase;
+    color: white;
+    vertical-align: top;
+  }
+
+
+ul li:hover{
+    color:black;
+    cursor:pointer;
+}
+
+
+.subMenu, .itemSubMenu ul{
+    display: none;
+    position: absolute;
+    left:-30px;
+}
+
+.itemSubMenu:hover .subMenu{
+    display: block;
+}
+
+
+
+.subMenu::before {
+        position: absolute;
+        top:-3px;
+        content: "";
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 2.5px 3px 2.5px;
+        border-color: transparent transparent #fff transparent;
+    }
+ul.subMenu li{
+    margin:0;
+    display: block;
+    color: #525a7f;
+}
+ul.subMenu li:hover{
+    margin:0;
+    display: block;
+    color: #525a7f;
+    text-decoration: underline;
+}
+ul.subMenu{
+    background: white;
+    color: #525a7f;
+    box-sizing: border-box;
+    padding:0 30px;
+    border-radius:5px;
+}
+.itemSubMenu{
+    position:relative;
+}
+
+
+.picture {
+   
+    height: 580px;
+    width: 900px;
+    padding-top: 60px;
+    padding-bottom:40px;
+
+}
+
+
+.whitequote {
+position: relative;
+
+}
+
+.plenty {
+    min-height: 62px;
+    width: 230px;
+    padding: 10px;
+    text-align: center;
+position:absolute;
+background-color:#ffffff;
+bottom:300px;
+left:60px;
+font-family: "Pathway Gothic One";
+color: #263555;
+font-size: 22.41px;
+font-weight:600;
+text-transform: uppercase;
+    
+}
+
+.bluequote {
+    position:relative;
+}
+
+.worth {
+    min-height: 62px;
+    width: 276px;
+    padding: 10px;
+    text-align: center;
+position:absolute;
+left:60px;
+font-family: "Pathway Gothic One";
+bottom:240px;
+background-color:#38afe5;
+font-size:34.42px;
+font-weight:200;
+color: #ffffff;
+text-transform: uppercase;
+}
+
+.slider {
+    position: absolute;
+    top:660px;
+    left:250px;
+}
+
+
+
+.right
+{
+    position: absolute;
+    top:700px;
+    left:310px;
+}
+
+.left
+{
+    position: absolute;
+    top:700px;
+    left:270px;
+   
+}
+
+h2 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 30.42px;
+    color: #263555;
+    text-transform: uppercase;
+    margin-right:740px;
+    margin-top:10px;
+    margin-bottom:40px;
+    font-weight:500;
+
+
+
+}
+
+
+.venice {
+height:268px;
+width: 288px;
+margin-right:10px;
+margin-bottom:134px;
+position: relative;
+}
+
+
+
+.veniceback {
+    
+   display: inline-block;
+   height:268px;
+   width: 148px;
+    background-color: #193149;
+    position: absolute;
+    z-index:1;
+    
+   
+}
+
+.vheader {
+    font-family: Open sans condensed light;
+  font-weight: 100;
+    font-size: 30.42px;     
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.vtext {
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10.41px;
+    color: #cbc6c6;
+    line-height: 1.462;
+    text-align:left;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    padding:4px;
+    margin-left:60px;
+    color: #000000;
+
+}
+
+.nyc {
+display:inline-block;
+height:268px;
+   width: 148px;
+   height:268px;
+   width: 288px;
+   margin-bottom:134px;
+   margin-right:10px;
+}
+
+
+.paris
+
+{
+    display:inline-block;
+    height:268px;
+       width: 148px;
+       height:268px;
+       width: 288px;
+       margin-bottom:134px;
+
+}
