@@ -56,13 +56,13 @@ body {
     font-family: 'Pathway Gothic One', sans-serif;
     font-size:28px;
     text-transform: uppercase;
-    color: white;
+    color: #ffffff;
     vertical-align: top;
   }
 
 
 ul li:hover{
-    color:black;
+    color: #263555;
     cursor:pointer;
 }
 
@@ -93,23 +93,28 @@ ul li:hover{
 ul.subMenu li{
     margin:0;
     display: block;
-    color: #525a7f;
+    font-size:20px;
+    color: #6b7488;
 }
 ul.subMenu li:hover{
     margin:0;
     display: block;
-    color: #525a7f;
+    color: #6b7488;
     text-decoration: underline;
 }
 ul.subMenu{
+    margin-left:10px;
     background: white;
-    color: #525a7f;
+    color: #6b7488;
     box-sizing: border-box;
-    padding:0 30px;
+    padding:0 20px;
     border-radius:5px;
+    
+  
 }
 .itemSubMenu{
     position:relative;
+  
 }
 
 
@@ -133,6 +138,7 @@ position: relative;
     width: 230px;
     padding: 10px;
     text-align: center;
+    vertical-align:  top;
 position:absolute;
 background-color:#ffffff;
 bottom:300px;
@@ -140,7 +146,7 @@ left:60px;
 font-family: "Pathway Gothic One";
 color: #263555;
 font-size: 22.41px;
-font-weight:600;
+font-weight:400;
 text-transform: uppercase;
     
 }
@@ -165,28 +171,8 @@ color: #ffffff;
 text-transform: uppercase;
 }
 
-.slider {
-    position: absolute;
-    top:660px;
-    left:250px;
-}
 
 
-
-.right
-{
-    position: absolute;
-    top:700px;
-    left:310px;
-}
-
-.left
-{
-    position: absolute;
-    top:700px;
-    left:270px;
-   
-}
 
 h2 {
     font-family: 'Pathway Gothic One', sans-serif;
@@ -202,6 +188,61 @@ h2 {
 
 }
 
+ 
+.halfCircle1{
+    width:45px;
+    height:90px;
+    border-top-left-radius:45px;
+    border-bottom-left-radius:45px;
+    color: #fff;
+    text-align:center;
+    background-color:#38afe5;
+    vertical-align: top;
+    display: inline-block;
+    position: relative;
+    bottom: 160px;
+    right: 380px;
+}
+
+
+.halfCircle1::after{
+    content:'\2190';
+    position: absolute;
+    top:39px;
+    left:12x;
+    text-align:center;
+    vertical-align: middle;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.halfCircle2::after{
+    content:'\2192';
+    position: absolute;
+    top:39px;
+    left:8px;
+    text-align:center;
+    vertical-align: middle;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.halfCircle2{
+    width:45px;
+    height:90px;
+    border-top-right-radius:45px;
+    border-bottom-right-radius:45px;
+    text-align:center;
+    color: #fff;
+    background-color: #38afe5;
+    vertical-align: top;
+    display: inline-block;    
+    margin-left: -4px;
+    position: relative;
+    bottom: 160px;
+    right: 380px;
+}
+
 
 .venice {
 height:268px;
@@ -209,24 +250,31 @@ width: 288px;
 margin-right:10px;
 margin-bottom:134px;
 position: relative;
+z-index:3;
 }
 
+.venice:hover
+{
+    z-index:1;
+}
 
+.veniceback:hover
+
+{z-index:5;}
 
 .veniceback {
-    
-   display: inline-block;
+  display: inline-block;
    height:268px;
    width: 148px;
     background-color: #193149;
-    position: absolute;
-    z-index:1;
-    
-   
+position: absolute;
+   z-index:2;
 }
 
+
+
 .vheader {
-    font-family: Open sans condensed light;
+    font-family: Open Sans Condensed Light;
   font-weight: 100;
     font-size: 30.42px;     
     text-transform: uppercase;
@@ -244,8 +292,12 @@ position: relative;
 
 .button {
     font-family: Arial, Helvetica, sans-serif;
-    padding:4px;
+    padding:2px;
+    width: 55px;
+    height: 20px;
     margin-left:60px;
+    border-radius:5px;
+    text-align:center;
     color: #000000;
 
 }
@@ -258,8 +310,49 @@ height:268px;
    width: 288px;
    margin-bottom:134px;
    margin-right:10px;
+   position:relative;
+   z-index:3;
 }
 
+.nycback {
+    display: inline-block;
+     height:268px;
+     width: 148px;
+      background-color: #193149;
+  position: absolute;
+ z-index:2;
+  }
+
+.nyc:hover
+{
+    z-index:1;
+}
+
+.nycback:hover {z-index:5;}
+
+
+  
+  
+  
+  .nheader {
+      font-family: Open Sans Condensed Light;
+    font-weight: 100;
+      font-size: 30.42px;     
+      text-transform: uppercase;
+      color: #ffffff;
+  }
+  
+  .ntext {
+      padding:10px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10.41px;
+      color: #cbc6c6;
+      line-height: 1.462;
+      text-align:left;
+  }
+  
+
+  
 
 .paris
 
@@ -270,5 +363,47 @@ height:268px;
        height:268px;
        width: 288px;
        margin-bottom:134px;
+       position:relative;
+       z-index:3;
 
 }
+
+.pback {
+    display: inline-block;
+     height:268px;
+     width: 148px;
+      background-color: #193149;
+  position: absolute;
+z-index:2
+  }
+
+.paris:hover
+{
+    z-index:1;
+}
+
+.pback:hover {z-index:5}
+
+
+  
+  
+  
+  .pheader {
+      font-family: Open Sans Condensed Light;
+    font-weight: 100;
+      font-size: 30.42px;     
+      text-transform: uppercase;
+      color: #ffffff;
+  }
+  
+  .ptext {
+      padding:10px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 10.41px;
+      color: #cbc6c6;
+      line-height: 1.462;
+      text-align:left;
+  }
+  
+
+
